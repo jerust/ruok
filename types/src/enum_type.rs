@@ -69,7 +69,7 @@ mod tests {
         let ruok: ProgramLanguage = ProgramLanguage::Rest("Ruok", 3);
         println!("{}", ruok); // Top3: Ruok
 
-        // as运算符只能用于将没有任何字段的变体转换为数字类型, 以下的操作是无法通过编译的
+        // as运算符只能用于将没有任何字段的变体转换为数字类型, 以下操作无法通过编译
         // ProgramLanguage::Java as u8;
     }
 }
