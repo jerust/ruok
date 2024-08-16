@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["types"]
+members = [ "fnptrs","types"]
 exclude = []
 
 [workspace.package]
